@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": "airbnb",
+  "globals": {
+    "expect": true,
+    "sinon": true,
+    "document": true,
+  },
+  "rules": {
+    "no-use-before-define": [2, "nofunc"],
+    "max-len": [1, 80, 4],
+    "radix": 0,
+    "arrow-body-style": 0,
+    "import/no-named-as-default": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-curly-spacing": 0,
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true,
+      "modules": true
+    },
+    "sourceType": "module"
+  }
+}
